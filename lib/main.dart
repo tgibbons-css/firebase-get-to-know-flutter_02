@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'src/widgets.dart';
+import 'dart:async';                                    // new
+import 'package:cloud_firestore/cloud_firestore.dart';  // new
 
 void main() {
   runApp(App());
